@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Project 1 Practice</title>
+        <!--most common character encoding, allows websites to accept
+        characters of the ASCII Unicode-->
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <main>
+        <h1>Basics of HTML</h1>
+        <!--Basics Like: p, headers, image, anchor links & Figure + figcaption-->
+        <section>
+            <h2>HTML</h2>
+            <!--target="_blank" allow links to be open on a new page instead of the same one-->
+            <p>Learn more about <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a></p>
+            <!--Image with a link-->
+            <a href="https://en.wikipedia.org/wiki/HTML"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png" alt="html logo goes here" height="250px"></a>
+        </section>
+        <section>
+            <h2>Unordered List & Order List</h2>
+            <h3>Facts of HTML</h3>
+            <ul>
+                <li>Well-defined error handling, like CSS</li>
+                <li>Avoid device-specific profiling.</li>
+                <li>Make the process open.</li>
+                <li>Practical</li>
+            </ul>
+            <h3>Myths</h3>
+            <ol>
+                <li>MY BROWSER SUPPORTS HTML5, BUT YOURS DOESN’T</li>
+                <li>HTML5 LEGALIZES TAG SOUP</li>
+                <li>HTML5 KILLS XML</li>
+                <li>HTML5 IS BAD FOR ACCESSIBILITY</li>
+            </ol>
+            <h3>Basic Text Formating</h2>
+                <p>This is a paragraph with <em>italic</em> font in it.</p>
+                <p>This is a paragraph with a <strong>strong/bold</strong> font in it</p>
+            <h2>Figure, Image & Figcaption</h2>
+            <!--Figure allows you to set caption to images and more to images or videos-->
+            <figure>
+                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2020-chevrolet-corvette-stingray-240-1589916589.jpg?crop=1xw:1xh;center,top&resize=768:*" alt="" height="200px">
+                <!--Figcaption is used to set a caption to an image-->
+                <figcaption>Chevrolet Corvette</figcaption>
+            </figure>
+            
+        </section>
+        <section>
+            <h2>Basic Form</h2>
+            <!--action allows you to send the data of the form where it should be send-->
+            <form action="">
+                <!--fieldset  is used to group several controls as well as labels ( <label> ) within a web form.-->
+                <fieldset>
+                    <!--represents a caption for the content of its parent <fieldset>-->
+                    <legend>Choose a car Color</legend>
+                    <label for="red"><input type="radio" name="color" id="red" value="red">Red</label>
+                    <label for="green"><input type="radio" name="color" id="green" value="green">Green</label>
+                    <label for="blue"><input type="radio" name="color" id="blue" value="blue">Blue</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Choose car features</legend>
+                    <label for="phoneholder"><input type="checkbox" name="features" value="phoneholder" id="phoneholder">Phone Holder</label>
+                    <label for="gps"><input type="checkbox" name="features" value="gps" id="gps">GPS</label>
+                    <label for="trashcan"><input type="checkbox" name="features" value="trashacan" id="trashcan">Mini Trashcan</label>
+                    <label for="sitheater"><input type="checkbox" name="features" value="sitheater" id="sitheater">Sit Heater</label>
+                </fieldset>
+                <input type="text" placeholder="Insert a Text">
+                <button type="submit">Submit Form</button>
+            </form>
+        </section>
+        </main>
+        <footer>
+            <h4>Footer</h4>
+            <p>No Copyright - Alejandro Hernandez</p>
+        </footer>
+    </body>
+</html>
