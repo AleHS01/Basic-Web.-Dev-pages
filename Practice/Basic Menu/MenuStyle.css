@@ -54,5 +54,21 @@ hr{
     width: 25%;
 }
 .bt-line{
-    margin-top: 15px;
+    margin-top: 25px;
+}
+a{
+    color: rgb(49, 49, 49);
+}
+a:visited{
+    color: rgb(49, 49, 49);
+}
+a:hover, a:active{
+    color: white;
+}
+footer{
+    font-size: 14px;
+}
+.name{
+    font-family: serif;
+    margin-bottom: 0;
 }
