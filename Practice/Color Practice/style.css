@@ -3,10 +3,11 @@ h1,h2, p{
 }
 p{
     color: white;
+    font-weight: 800;
 }
 .containers{
     border: 2px solid black;
-    height: 250px;
+    height: 200px;
     margin: 10px 0;
 }
 .rectangle{
@@ -24,11 +25,22 @@ p{
     background-color: blue;
 }
 .rgb1{
-
+    background-color: rgb(255,115,127);
 }
 .rgb2{
-    
+    background-color: rgb(75, 11, 164);
+
 }
 .rgb3{
-    
+    background-color: rgb(127,255,150);
+
+}
+.rgba1{
+    background-color: rgba(56,24,43,0.5);
+}
+.rgba2{
+    background-color: rgba(80,128,200,30%);
+}
+.rgba3{
+    background-color: rgba(68,64,18,0.8);
 }
