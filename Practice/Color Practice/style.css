@@ -44,3 +44,21 @@ p{
 .rgba3{
     background-color: rgba(68,64,18,0.8);
 }
+.hsl1{
+    background-color: hsl(186, 76%, 16%);
+}
+.hsl2{
+    background-color: hsl(126, 56%, 8%);
+}
+.hsl3{
+    background-color: hsl(100, 78%, 25%);
+}
+.hsla1{
+    background-color: hsl(186, 76%, 16%);
+}
+.hsla2{
+    background-color: hsl(126, 56%, 8%);
+}
+.hsla3{
+    background-color: hsl(100, 78%, 25%);
+}
