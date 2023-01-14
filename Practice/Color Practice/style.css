@@ -5,9 +5,17 @@ p{
     color: white;
     font-weight: 800;
 }
+.below{
+    color: black;
+}
 .containers{
     border: 2px solid black;
     height: 200px;
+    margin: 10px 0;
+}
+.large{
+    border: 2px solid black;
+    height: 100%;
     margin: 10px 0;
 }
 .rectangle{
@@ -70,4 +78,34 @@ p{
 }
 .hex3{
     background-color:#ac4ea5  ;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+    margin: 10px auto;
+}
+.cOne{
+    background: linear-gradient(90deg, #003153, #007474);
+}
+.cTwo{
+    background: linear-gradient(180deg, rgb(145, 9, 52),rgb(219, 119, 151) );
+}
+.cThree{
+ background: linear-gradient(45deg, hsl(55, 26%, 80%),hsl(55, 76%, 55%),hsl(28, 83%, 49%));   
+}
+.sOne{
+    background: linear-gradient(60deg, #003153 15%, #bb2649 75%);
+}
+.sTwo{
+    background: linear-gradient(270deg, rgb(145, 9, 52) 60%,rgb(34, 111, 206) );
+}
+.sThree{
+ background: linear-gradient(45deg, hsl(0, 74%, 57%) 40%,hsl(227, 76%, 55%) 55%,hsl(84, 83%, 49%) 100%);   
 }
