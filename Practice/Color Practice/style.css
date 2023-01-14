@@ -1,5 +1,6 @@
 h1,h2, p{
     text-align: center;
+    margin: 15px 0;
 }
 p{
     color: white;
@@ -108,4 +109,36 @@ p{
 }
 .sThree{
  background: linear-gradient(45deg, hsl(0, 74%, 57%) 40%,hsl(227, 76%, 55%) 55%,hsl(84, 83%, 49%) 100%);   
+}
+.marker{
+    width: 250px;
+    height: 35px;
+    margin: 15px auto;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.mOne{
+    background: linear-gradient(#374d06, #00e022, #007413);
+    box-shadow: 0 0 20px 0px #14c904;
+}
+.mTwo{
+    background: linear-gradient(rgb(86, 55, 86), rgb(255, 0, 179), rgb(93, 0, 45));
+    box-shadow: 0 0 20px 0px hsl(294, 78%, 53%);
+}
+.mThree{
+    background: linear-gradient(hsl(223, 56%, 18%), hsl(192, 100%, 50%), hsl(257, 80%, 18%));
+    box-shadow: 0 0 20px 0px rgb(0, 217, 255);
+}
+.sleeve{
+    width: 165px;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.3 );
+    border-left: 10px double black;
+}
+.cap{
+    width: 65px;
+    height: 35px;
+}
+.cap, .sleeve{
+    display: inline-block;
 }
