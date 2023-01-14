@@ -6,24 +6,29 @@ p{
     color: white;
     font-weight: 800;
 }
+/*class below it's use to make the text black for the section Linear Gradient*/
 .below{
     color: black;
 }
+/*Creating a Box to contain the differents secctios*/
 .containers{
     border: 2px solid black;
     height: 200px;
     margin: 10px 0;
 }
+/*Make the containers larger for linear gradient section*/
 .large{
     border: 2px solid black;
     height: 100%;
     margin: 10px 0;
 }
+/*Rectangle to contain the differents colors*/
 .rectangle{
     width: 250px;
     height: 25px;
     margin: 10px auto;
 }
+/*Colors with name*/
 .one{
     background-color: red;
 }
@@ -33,6 +38,7 @@ p{
 .three{
     background-color: blue;
 }
+/*Colors with RGB (Red, Green, Blue)*/
 .rgb1{
     background-color: rgb(255,115,127);
 }
@@ -44,6 +50,7 @@ p{
     background-color: rgb(127,255,150);
 
 }
+/*Colors with RGBA (Red, Green, Blue, Alpha Channel)*/
 .rgba1{
     background-color: rgba(56,24,43,0.5);
 }
@@ -53,6 +60,7 @@ p{
 .rgba3{
     background-color: rgba(68,64,18,0.8);
 }
+/*Colors with HSL (Hue, Saturation, Lightness)*/
 .hsl1{
     background-color: hsl(186, 76%, 16%);
 }
@@ -62,6 +70,7 @@ p{
 .hsl3{
     background-color: hsl(100, 78%, 25%);
 }
+/*Colors with HSLA (Hue, Saturation, Lightness, Alpaha Channel)*/
 .hsla1{
     background-color: hsla(203, 100%, 36%, 0.8);
 }
@@ -71,6 +80,7 @@ p{
 .hsla3{
     background-color: hsla(55, 22%, 55%, 60%);
 }
+/*Colors with Hex Code*/
 .hex1{
     background-color: #d9534f;
 }
@@ -80,18 +90,21 @@ p{
 .hex3{
     background-color:#ac4ea5  ;
 }
+/*Linear-gradient secciton making circles with different angles and 2+ colors*/
 .circle{
     height: 100px;
     width: 100px;
     border-radius: 50%;
     margin: 10px auto;
 }
+/*Linear-gradient secciton making squares with different angles and 2+ colors and giving them starting values*/
 .square{
     height: 100px;
     width: 100px;
     border-radius: 8px;
     margin: 10px auto;
 }
+/*Gradient Cirles*/
 .cOne{
     background: linear-gradient(90deg, #003153, #007474);
 }
@@ -101,6 +114,7 @@ p{
 .cThree{
  background: linear-gradient(45deg, hsl(55, 26%, 80%),hsl(55, 76%, 55%),hsl(28, 83%, 49%));   
 }
+/*Gradient Square*/
 .sOne{
     background: linear-gradient(60deg, #003153 15%, #bb2649 75%);
 }
@@ -110,6 +124,7 @@ p{
 .sThree{
  background: linear-gradient(45deg, hsl(0, 74%, 57%) 40%,hsl(227, 76%, 55%) 55%,hsl(84, 83%, 49%) 100%);   
 }
+/*Creating the marker main body*/
 .marker{
     width: 250px;
     height: 35px;
@@ -117,6 +132,7 @@ p{
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
+/*Coloring each marker with gradient to have a sort of refelction*/
 .mOne{
     background: linear-gradient(#374d06, #00e022, #007413);
     box-shadow: 0 0 20px 0px #14c904;
@@ -129,12 +145,14 @@ p{
     background: linear-gradient(hsl(223, 56%, 18%), hsl(192, 100%, 50%), hsl(257, 80%, 18%));
     box-shadow: 0 0 20px 0px rgb(0, 217, 255);
 }
+/*Sleeve it's use to create the white rectantle*/
 .sleeve{
     width: 165px;
     height: 35px;
     background-color: rgba(255, 255, 255, 0.3 );
     border-left: 10px double black;
 }
+/*Cap it just to take some space and push the sleeve to the right*/
 .cap{
     width: 65px;
     height: 35px;
