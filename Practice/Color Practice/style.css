@@ -1,0 +1,34 @@
+h1,h2, p{
+    text-align: center;
+}
+p{
+    color: white;
+}
+.containers{
+    border: 2px solid black;
+    height: 250px;
+    margin: 10px 0;
+}
+.rectangle{
+    width: 250px;
+    height: 25px;
+    margin: 10px auto;
+}
+.one{
+    background-color: red;
+}
+.two{
+    background-color: green;
+}
+.three{
+    background-color: blue;
+}
+.rgb1{
+
+}
+.rgb2{
+    
+}
+.rgb3{
+    
+}
