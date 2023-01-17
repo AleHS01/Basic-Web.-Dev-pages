@@ -7,15 +7,27 @@
     </head>
     <body>
         <h1>Register Form</h1>
-        <p>Please fill out this form with the required information (*)</p>
+        <p>Please fill out this form with the required information (<span>*</span>)</p>
         <form action="">
+
+            <!-- 1st Fieldset to collect basic info about the user-->
             <fieldset>
-                <label for="name">Enter Your Full Name* <input type="text" required id="name"></label>
-                <label for="email">Enter Your Email* <input type="email" id="email" required></label>
-                <label for="password">Create A Password* <input type="password" required id="password"></label>
+                <label for="name">Enter Your Full Name<span>*</span><input type="text" required id="name"></label>
+                <label for="email">Enter Your Email<span>*</span><input type="email" id="email" required></label>
+                <label for="password">Create A Password <span class="required">*</span><input type="password" required id="password"></label>
+                <label for="">Enter Your Age <span class="opt">(Optional)</span> <input type="number"></label>
+                <label for="">Profile Picture <input type="file"></label>
             </fieldset>
-            <fieldset></fieldset>
-            <fieldset></fieldset>
+            <!-- 2nd Fieldset to determine what time of account the user will be creating-->
+            <fieldset>
+                <label for="">Choose Your Type of Account</label>
+                <label for="Per-acct"><input type="radio" name="account" id="Per-acct">Personal Account</label>
+                <label for="Bsn-acct"><input type="radio" name="account" id="Bsn-acct">Business Account</label>
+            </fieldset>
+            <!-- 3rd Fieldset is know where it's comming from & if it has any comments-->
+            <fieldset>
+
+            </fieldset>
         </form>
     </body>
 </html>
