@@ -11,6 +11,9 @@ section{
     width: 90%;
     max-width: 900px;
 }
+
+/*Calendar Start At This Point*/
+
 table{
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
@@ -69,3 +72,5 @@ table caption{
     color: black;
     cursor: pointer;
  }
+
+ /*Balance Sheet Start At This Point*/
