@@ -1,3 +1,66 @@
+html{
+    box-sizing: border-box;
+}
 body{
     background-color: rgb(250, 238, 223);
 }
+section:first-of-type{
+    border: 2px solid rgb(204, 183, 44);
+    height: 100%;
+}
+table{
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px;
+    border-collapse: collapse;
+    width: 450px;
+    height: 300px;
+    margin-bottom: 20px;
+    table-layout: fixed;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px 0;
+}
+table > tbody  td{
+    text-align: center;
+    font-weight: bold;
+}
+thead th, table caption, table td{
+    border: 2px solid rgb(116, 123, 128);  
+}
+thead th{
+    background-color: rgb(223, 223, 223);
+}
+table caption{
+    background-color: white;
+    height: 35px;
+    font-weight: bold;
+    font-size: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 0;
+}
+ table tbody td:hover:not(.february){
+    background-color: aquamarine;
+    cursor: pointer;
+ }
+ table tbody td:active:not(.february){
+    background-color: rgb(0, 178, 119);
+    cursor: pointer;
+ }
+ .february{
+    color: grey;
+ }
+ .february:hover{
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+ }
+ .february:active{
+    background-color: rgb(222, 180, 128);
+    color: black;
+    cursor: pointer;
+ }
