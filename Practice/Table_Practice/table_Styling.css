@@ -2,11 +2,14 @@ html{
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(250, 238, 223);
+    background-color: rgb(215, 255, 239);
 }
-section:first-of-type{
-    border: 2px solid rgb(204, 183, 44);
+section{
+    border: 5px solid rgb(0, 156, 135);
     height: 100%;
+    margin: 15px auto;
+    width: 90%;
+    max-width: 900px;
 }
 table{
     margin: 0 auto;
@@ -14,8 +17,10 @@ table{
     border-radius: 8px;
     padding: 10px;
     border-collapse: collapse;
-    width: 450px;
-    height: 300px;
+    width: 80%;
+    max-width: 800px;
+    min-width: 450px;
+    height: 350px;
     margin-bottom: 20px;
     table-layout: fixed;
 }
