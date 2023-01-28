@@ -9,9 +9,12 @@
 </head>
 <body>
     <main>
-        <section>
+
+        <!--Calendar Start Here-->
+        
+        <section id="Calendar-Jan">
             <h1>Calendar</h1>
-            <table>
+            <table class="Calendar">
                 <caption>January 2023</caption>
                 <thead>
                     <th>Sun</th>
@@ -71,13 +74,121 @@
                 </tbody>
             </table>
         </section>
-        <section>
+
+        <!--Balance Sheet Star Here-->
+        <section id="Balance-Sheet">
+
             <h1>
                 <span class="flex">
                     <span>Alejandro Hernandez</span>
                     <span>Balance Sheet</span>
                 </span>
             </h1>
+            <!--aria-hidden it's use to hide visual text to screen readers, or accessiblity tool
+            in general-->
+            <div id="years" aria-hidden="true">
+                <span class="year">2020</span>
+                <span class="year">2021</span>
+                <span class="year">2022</span>
+            </div>
+            <div class="table-wrap">
+                <table class="Balance">
+                    <caption class="bal-caption">Assets</caption>
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <!--sr-only: Screen Readers Only (Accessibility tool)-->
+                            <th><span class="sr-only">2020</span></th>
+                            <th><span class="sr-only">2021</span></th>
+                            <th><span class="sr-only">2022</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="data">
+                            <th>Cash <span class="description">This is the cash we currently have on hand.</span></th>
+                            <td>$800</td>
+                            <td>$1500</td>
+                            <td>$2000</td>
+                        </tr>
+                        <tr class="data">
+                            <th>Checking <span class="description">Our primary transactional account.</span></th>
+                            <td>$900</td>
+                            <td>$1800</td>
+                            <td>$2500</td>
+                        </tr>
+                        <tr class="data">
+                            <th>Savings <span class="description">Funds set aside for emergencies.</span></th>
+                            <td>$700</td>
+                            <td>$1300</td>
+                            <td>$2300</td>
+                        </tr>
+                        <tr class="total">
+                            <th>Total <span class="sr-only">Assets</span></th>
+                            <td>$2400</td>
+                            <td>$4600</td>
+                            <td>$6800</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <caption class="bal-caption">Liabilities</caption>
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <!--sr-only: Screen Readers Only (Accessibility tool)-->
+                            <th><span class="sr-only">2020</span></th>
+                            <th><span class="sr-only">2021</span></th>
+                            <th><span class="sr-only">2022</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="data">
+                            <th>Loans <span class="description">The outstanding balance on our startup loan.</span></th>
+                            <td>$550</td>
+                            <td>$602</td>
+                            <td>$400</td>
+                        </tr>
+                        <tr class="data">
+                            <th>Expenses <span class="description">Annual anticipated expenses, such as payroll.</span></th>
+                            <td>$1120</td>
+                            <td>$2200</td>
+                            <td>$1500</td>
+                        </tr>
+                        <tr class="data">
+                            <th>Credit <span class="description">The outstanding balance on our credit card.</span></th>
+                            <td>$1700</td>
+                            <td>$1800</td>
+                            <td>$1600</td>
+                        </tr>
+                        <tr class="total">
+                            <th>Total <span class="sr-only">Liabilities</span></th>
+                            <td>$3370</td>
+                            <td>$4602</td>
+                            <td>$3500</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <caption class="bal-caption">Net Worth</caption>
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <!--sr-only: Screen Readers Only (Accessibility tool)-->
+                            <th><span class="sr-only">2020</span></th>
+                            <th><span class="sr-only">2021</span></th>
+                            <th><span class="sr-only">2022</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="total">
+                            <th>Total<span class="sr-only">Net Worth</span></th>
+                            <td>$4600</td>
+                            <td>$6700</td>
+                            <td>$9300</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
     </main>
 </body>

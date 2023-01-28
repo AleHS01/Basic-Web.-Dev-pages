@@ -3,6 +3,7 @@ html{
 }
 body{
     background-color: rgb(215, 255, 239);
+    color: #0a0a23;
 }
 section{
     border: 5px solid rgb(0, 156, 135);
@@ -14,7 +15,7 @@ section{
 
 /*Calendar Start At This Point*/
 
-table{
+.Calendar{
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
@@ -27,22 +28,22 @@ table{
     margin-bottom: 20px;
     table-layout: fixed;
 }
-h1{
+#Calendar-Jan h1{
     text-align: center;
     font-size: 40px;
     margin: 10px 0;
 }
-table > tbody  td{
+.Calendar > tbody  td{
     text-align: center;
     font-weight: bold;
 }
-thead th, table caption, table td{
+.Calendar thead th, .Calendar caption, .Calendar td{
     border: 2px solid rgb(116, 123, 128);  
 }
-thead th{
+.Calendar thead th{
     background-color: rgb(223, 223, 223);
 }
-table caption{
+.Calendar caption{
     background-color: white;
     height: 35px;
     font-weight: bold;
@@ -51,11 +52,11 @@ table caption{
     border-top-right-radius: 8px;
     border-bottom: 0;
 }
- table tbody td:hover:not(.february){
+ .Calendar tbody td:hover:not(.february){
     background-color: aquamarine;
     cursor: pointer;
  }
- table tbody td:active:not(.february){
+ .Calendar tbody td:active:not(.february){
     background-color: rgb(0, 178, 119);
     cursor: pointer;
  }
@@ -74,3 +75,17 @@ table caption{
  }
 
  /*Balance Sheet Start At This Point*/
+ 
+ .sr-only{
+    border: 0 !important;
+  clip: rect(100px, 100px, 100px, 100px) !important;
+  clip-path: inset(50%) !important;
+  -webkit-clip-path: inset(50%) !important;
+  height: 100px !important;
+  width: 100px !important;
+  position: absolute !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  padding: 0 !important;
+  margin: -1px !important;
+ }
