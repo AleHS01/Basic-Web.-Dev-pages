@@ -8,9 +8,8 @@
   </head>
   <body>
       <nav id="navbar">
-        <header>
-          <h1>JS Documentation</h1>
-        </header>
+        <div class="sticky">
+        <header>JS Documentation</header>
         <a href="#Introduction" class="nav-link">Introduction</a>
         <a href="#What_you_should_know" class="nav-link">What you should know</a>
         <a href="#JavaScript_and_Java" class="nav-link">JavaScript and Java</a>
@@ -27,6 +26,7 @@
         <a href="#while_statement" class="nav-link">while statement</a>
         <a href="#Function_declaration" class="nav-link">Function declaration</a>
         <a href="#Reference" class="nav-link">Reference</a>
+        </div>
       </nav>
     <main id="main-doc">
       <section class="main-section" id="Introduction">
@@ -114,8 +114,8 @@
         <p>The scope rules for constants are the same as those for let block scope variables. If the const keyword is omitted, the identifier is assumed to represent a variable.</p>
         <p>You cannot declare a constant with the same name as a function or variable in the same scope. For example:</p>
         <div class="code-div">
-          <code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS WILL CAUSE AN ERROR ALSO function</code>
-          <code>f() { const g = 5; var g; //statements }</code>
+          <code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5;</code>
+          <code>// THIS WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements }</code>
         </div>
         <p>However, object attributes are not protected, so the following statement is executed without problems.</p>
         <div class="code-div">
@@ -222,7 +222,3 @@
     </main>
   </body>
 </html>
-
-<div class="code-div">
-  <code></code>
-</div>
