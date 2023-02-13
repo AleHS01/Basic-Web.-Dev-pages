@@ -162,7 +162,7 @@
     }
     iframe{
       width: 98%;
-      height: 50%;
+      height: 300px;
     }
     #pricing{
       grid-template-columns: repeat(2, 1fr);
