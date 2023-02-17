@@ -16,9 +16,19 @@ div{
     margin: 20px auto;
     transform-origin: 0% 0%;
 }
+main hr{
+    margin-top: 50px;
+}
 .jumping{
     background-color: blanchedalmond;
-    animation: jump 2s linear infinite;
+    animation: jump 1s linear infinite;
+}
+.rotation{
+    background-color: aqua;
+    margin-top: 15%;
+    border-radius: 8%;
+    animation: rotate 5s linear infinite;
+    transform-origin: 50% 50%;
 }
 @keyframes change{
     0%{
@@ -42,15 +52,40 @@ div{
         translate: 0% 0%;
     }
     25%{
-        translate: 0% 20%;
+        translate: 0% 10%;
     }
     50%{
-        translate: 0% 50%;
+        translate: 0% 18%;
     }
     75%{
-        translate: 0% 25%;
+        translate: 0% 10%;
     }
     90%{
-        translate: 0% 0%;
+        translate: 0% 5%;
+    }
+
+}
+@keyframes rotate {
+    0%{
+        rotate: 360deg;
+    }
+    25%{
+        rotate: 90deg;
+        background-color: green;
+    }
+    50%{
+        rotate: 180deg;
+        background-color: yellow;
+    }
+    75%{
+        rotate: 90deg;
+        background-color: orange;
+    }
+    90%{
+        rotate: 45deg;
+        background-color: red;
+    }
+    100%{
+        rotate: 0%;
     }
 }
