@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#fondo1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: url(../images/rome-italy-lead-ROMETG0521-7bd455d3c2b545219498215df7143e0d.jpg);
+    background-size: cover;
+    animation:  bg-change2 24s linear 18s infinite;
+    -webkit-animation: bg-change 24s linear 18s infinite;
+    -moz-animation: bg-change 24s linear 18s infinite;
+}
+#fondo2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: url(../images/chateau-Villandry-gardens-Tours-France-Loire-Valley-1532.jpg.webp);
+    background-size: cover;
+    animation:  bg-change2 24s linear 12s infinite;
+    -webkit-animation: bg-change 24s linear 12s infinite;
+    -moz-animation: bg-change 24s linear 12s infinite;
+}
+#fondo3{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: url(../images/AdobeStock_239804375-scaled-e1614519735981.jpeg);
+    background-size: cover;
+    animation:  bg-change2 24s linear 6s infinite;
+    -webkit-animation: bg-change 24s linear 6s infinite;
+    -moz-animation: bg-change 24s linear 6s infinite;
+}
+#fondo4{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: url(../images/72929.jpg);
+    background-size: cover;
+    animation:  bg-change2 24s linear 0s infinite;
+    -webkit-animation: bg-change 24s linear 0s infinite;
+    -moz-animation: bg-change 24s linear 0s infinite;
+}
+@keyframes bg-change {
+    0%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-webkit-keyframes bg-change{
+    0%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-moz-keyframes bg-change{
+    0%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
