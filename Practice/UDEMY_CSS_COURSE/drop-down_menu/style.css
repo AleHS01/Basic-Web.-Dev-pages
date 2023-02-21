@@ -33,7 +33,6 @@ header{
 }
 .nivel1:hover{
     background-image: linear-gradient(45deg,rgb(8, 13, 104), rgb(0, 87, 125));
-    transition: background 5.5s ease-out;
 }
 .nivel2{
     position: relative;
@@ -49,4 +48,10 @@ header{
 .nivel2:hover{
     background-color: rgb(0, 87, 125);
     transition: background 0.5s ease-out;
+}
+#menuTop ul li ul{
+    display: none;
+}
+#menuTop ul li:hover ul{
+    display: block;
 }
