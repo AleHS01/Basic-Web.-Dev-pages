@@ -6,3 +6,53 @@
     text-decoration: none;
 }
 /* Menu */
+#mobileMenu{
+    position: absolute;
+    width: 90%;
+    height: auto;
+    background-color: white;
+    top: 50px;
+    left: -100%;
+    transition: left 1s ease-in-out;
+}
+#mobileMenu ul li{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: rgb(209, 246, 239);
+    font-size: 24px;
+    color: #000;
+    display: block;
+}
+#mobileMenu ul li:hover{
+    background-color: rgb(189, 220, 214);
+}
+label#labelMenu span{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: url(../images/list-2.png) no-repeat;
+    margin: 5px;
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    display: none;
+}
+label h2{
+    position: absolute;
+    top: 10px;
+    left: 45px;
+}
+label#labelMenu span:hover{
+    background: url(../images/list-3.png) no-repeat;
+}
+
+/* Is like a condition, if the checkbox is checked then 
+the next element should perfomr the new properties */
+input[type="checkbox"]:checked + label#labelMenu span{
+    background: url(../images/list-1.png) no-repeat;
+}
+input[type="checkbox"]:checked ~ nav#mobileMenu{
+    left: 0px;
+}
