@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* Slides */
+#slide{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 301px;
+
+}
+#slide ul{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 1000px;
+    height: 301px;
+    background: url(../images/slide1.jpg) no-repeat;
+    background-size: contain;
+    
+}
+#slide ul li img{
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    transition: opacity 1s ease-out;
+}
+#slide ul li label{
+    position: relative;
+    z-index: 3;
+    top: 304px;
+    left: 400px;
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 0 2px;
+    background-color: navy;
+    border: 3px solid white;
+    cursor: pointer;
+    border-radius: 50%;
+}
