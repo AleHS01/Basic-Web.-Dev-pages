@@ -22,6 +22,8 @@
     
 }
 #slide ul li img{
+    width: 942px;
+    height: 400px;
     position: absolute;
     opacity: 0;
     left: 0;
@@ -50,11 +52,18 @@
 #slide ul li input{
     display: none;
 }
-#background{
-    position: relative;
-    top: 98px;
-    width: 942px;
-    height: 26px;
-    left: 450px;
-    background: linear-gradient(45deg, rgb(10, 10, 81), rgb(2, 94, 148));
+#slide ul li input#button-1:checked ~ #photo1{
+    opacity: 1;
+}
+#slide ul li input#button-2:checked ~ #photo2{
+    opacity: 1;
+}
+#slide ul li input#button-3:checked ~ #photo3{
+    opacity: 1;
+}
+#slide ul li input#button-4:checked ~ #photo4{
+    opacity: 1;
+}
+#slide ul li input#button-5:checked ~ #photo5{
+    opacity: 1;
 }
