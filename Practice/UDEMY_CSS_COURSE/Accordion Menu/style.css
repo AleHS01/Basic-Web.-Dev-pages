@@ -6,7 +6,7 @@
 }
 /* Accordion Menu */
 #accordion input{
-    display: block;
+    display: none;
 }
 #accordion label{
     display: block;
@@ -38,4 +38,13 @@
 }
 #accordion input#block1:checked ~ #container1{
     height: 420px;
+}
+#accordion input#block2:checked ~ #container2{
+    height: 420px;
+}
+#accordion input#block3:checked ~ #container3{
+    height: 420px;
+}
+#accordion input#block4:checked ~ #container4{
+    height: 450px;
 }
