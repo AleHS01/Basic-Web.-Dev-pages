@@ -16,7 +16,7 @@
     top: 0;
     left: 0;
     width: 1000px;
-    height: 301px;
+    height: 400px;
     background: url(../images/slide1.jpg) no-repeat;
     background-size: contain;
     
@@ -30,7 +30,7 @@
 #slide ul li label{
     position: relative;
     z-index: 3;
-    top: 304px;
+    top: 404px;
     left: 400px;
     float: left;
     width: 10px;
@@ -40,4 +40,21 @@
     border: 3px solid white;
     cursor: pointer;
     border-radius: 50%;
+}
+#slide ul li label:hover{
+    background-color: rgb(109, 146, 147);
+}
+#slide ul li label:active{
+    background-color: rgb(164, 81, 241);
+}
+#slide ul li input{
+    display: none;
+}
+#background{
+    position: relative;
+    top: 98px;
+    width: 942px;
+    height: 26px;
+    left: 450px;
+    background: linear-gradient(45deg, rgb(10, 10, 81), rgb(2, 94, 148));
 }
