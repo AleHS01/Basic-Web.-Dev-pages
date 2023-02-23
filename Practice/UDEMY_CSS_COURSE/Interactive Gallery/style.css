@@ -23,22 +23,22 @@ section#gallery ul#gallerybox{
 }
 section#gallery ul#gallerybox li div{
     position: absolute;
-    opacity: 1;
+    opacity: 0;
     right: 16px;
     top: 22px;
-    -webkit-transition: all .2s ease-out;
-    -moz-transition: all .2s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
 }
 
 
 
 
 section#gallery ul#gallerybox li label img{
-    width: 150px;
-    height: 80px;
+    width: 151px;
+    height: 72px;
 }
 section#gallery ul#gallerybox li div img{
-    height: 220px;
+    height: 224px;
     width: 735px;
     /* position: relative; */
 }
@@ -59,4 +59,32 @@ section#gallery ul#gallerybox li div p{
     width: 97.2%;
     line-height: 60px;
     padding-left: 20px;
+}
+section#gallery ul#gallerybox li div#gallery0{
+    opacity: 1;
+}
+section#gallery ul#gallerybox li label{
+    position: relative;
+    z-index: 3;
+    width: 151px;
+    height: 72px;
+    top: 22px;
+    left: 15px;
+    margin: 2px 0;
+    cursor: pointer;
+}
+section#gallery ul#gallerybox li input{
+    display: none;
+}
+input#button1:checked ~ #gallery1{
+    opacity: 1;
+    z-index: 1;
+}
+input#button2:checked ~ #gallery2{
+    opacity: 1;
+    z-index: 1;
+}
+input#button3:checked ~ #gallery3{
+    opacity: 1;
+    z-index: 1;
 }
