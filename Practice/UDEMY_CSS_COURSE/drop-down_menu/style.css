@@ -4,29 +4,31 @@
     text-decoration: none;
     font-family: sans-serif;
     list-style: none;
+    box-sizing: border-box;
 }
 header{
-    position: relative;
-    margin: 0 auto;
-    width: 1000px;
-    height: 150px;
-    background-color: silver;
+    position: sticky;
+    width: 100%;
+    height: 50px;
 }
 #menuTop{
     position: absolute;
     bottom: 0;
-    width: 1000px;
+    width: 100%;
     height: 50px;
-    background-color: brown;
+    
+}
+#menuTop ul{
+    margin: 0 auto;
 }
 .nivel1{
     float: left;
-    width: 19.2%;
-    text-align: center;
-    line-height: 42px;
-    background: linear-gradient(#900, #600);
-    border: 4px solid white;
     
+    width: 20%;
+    text-align: center;
+    line-height: 44px;
+    background: linear-gradient(#900, #600);
+    margin: 0 auto;
 }
 .nivel1 a{
     color: white;
@@ -39,11 +41,11 @@ header{
     width: 100%;
     text-align: center;
     line-height: 42px;
-    border: 4px solid white;
+    border: 2px solid white;
     border-bottom: 0;;
     background-color: rgb(149, 156, 154);
     color: #000;
-    left: -4px;
+    
 }
 .nivel2:hover{
     background-color: rgb(0, 87, 125);
