@@ -42,6 +42,9 @@
     -webkit-animation: bg-change 24s linear 0s infinite;
     -moz-animation: bg-change 24s linear 0s infinite;
 }
+#fondo1,#fondo2,#fondo3,#fondo4{
+    z-index: 0;
+}
 @keyframes bg-change {
     0%{
         opacity: 1;
